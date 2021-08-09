@@ -178,8 +178,8 @@ public class Menu {
         System.out.println("6 - Add Sale Result for Commissioned Employee");
         System.out.println("7 - Add Additional Service Tax for Syndicalist Employee");
         System.out.println("8 - Run Payroll");
-        System.out.println("9 - Undo*");
-        System.out.println("10 - Redo*");
+        System.out.println("9 - Undo");
+        System.out.println("10 - Redo");
         System.out.println("11 - Change Employee Payment Schedule");
         System.out.println("12 - Add New Payment Schedule");
         System.out.println("13 - List Payment Histories");
