@@ -40,11 +40,11 @@ public class PaymentHistory implements Serializable {
 
     @Override
     public String toString() {
-        return "PaymentHistory{" +
-                "Employee id=" + paymentEmployee.getEmployee().getId() +
-                ", date=" + date +
-                ", value=" + value +
+        return "PaymentHistory:\n\t" +
+                "Employee id: " + paymentEmployee.getEmployee().getId() + "\n\t" +
+                "date: " + date + "\n\t" +
+                "value: " + value + "\n\t" +
                 paymentEmployee.getPaymentMethod() +
-                "}\n";
+                "\n";
     }
 }
